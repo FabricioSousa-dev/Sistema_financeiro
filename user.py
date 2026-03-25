@@ -4,4 +4,4 @@ password = str(input("Enter your password: ")).split()
 name = str(input("Enter your name: ")).split()
 
 
-print("Hello! {}".format(username))
+
