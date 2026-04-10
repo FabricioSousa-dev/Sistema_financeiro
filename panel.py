@@ -1,3 +1,3 @@
 import user
 
-print()
+print("welcome {}".format(user.username))
