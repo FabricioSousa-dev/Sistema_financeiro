@@ -6,29 +6,17 @@ password = str(input("Enter your password: ")).split()
 name = str(input("Enter your name: ")).split()
 
 
-
-
-
-if len(password) < 6:
-    print("Password is too short")
-
+if len(username) > 0 and username == str:
+    print("Welcome {}".format(username))
+elif len(id) > 5:
+    print("Id{}".format(id))
+elif len(password) > 6:
+    print("Password{}".format(password))
+elif len(name) > 5:
+        print("Name{}".format(name))
 else:
-    print("Password is correct")
-
-if len(username) <= 0:
-    print("Username is too short")
-else:
-    print("Welcome! {}".format(username))
-if len(id) <= 0:
-    print("ID is too short")
-else:
-    print("Welcome! {}".format(id))
-
-if len(name) < 0:
-    print("Name is too short")
-else:
-    print("Welcome! {}".format(name))
-    close()
+    print("Please enter a valid username and password")
+    exit()
 
 
 
